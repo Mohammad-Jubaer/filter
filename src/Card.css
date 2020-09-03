@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card-container {
+  background-color: rgba(130, 163, 108, 0.8);
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 4px;
+  /* padding: 10px; */
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.card img {
+  object-fit: contain;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+.card img:hover {
+  transform: scale(1.06);
+}
