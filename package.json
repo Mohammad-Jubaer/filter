@@ -2,7 +2,7 @@
   "name": "filter",
   "version": "0.1.0",
   "private": true,
-  "homeage": "https://github.com/Mohammad-Jubaer/filter",
+  "homeage": "https://mohammad-jubaer.github.io/filter/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
