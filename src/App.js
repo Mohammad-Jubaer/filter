@@ -66,11 +66,13 @@ const App = () => {
   return (
     <React.Fragment>
       <div className="App">
-        <h1>Random People</h1>
-        <Search
-          placeholder="search for random people"
-          onChange={changeHandler}
-        />
+        <div className="app-header">
+          <h1>Random People</h1>
+          <Search
+            placeholder="search for random people"
+            onChange={changeHandler}
+          />
+        </div>
         <CardList emp={searchState.filtered} />
       </div>
     </React.Fragment>
